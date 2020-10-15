@@ -1,0 +1,33 @@
+/*.header-menu { width: 41%;
+    height: 9vh;
+    background-color: #FFFFFF;
+    width: fit-content;
+   
+
+}*/
+
+ul { padding: 0;
+
+}
+
+ul li { 
+    display: inline;
+}
+
+ul li a {
+    font-family:"Montserrat", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #FFFFFF ;
+    color: black;
+    float: left;
+    margin: 3px;
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 10%;
+}
