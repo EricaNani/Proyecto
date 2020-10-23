@@ -1,7 +1,10 @@
+
+
 .section-presentacion {
     background-color:#ffff ;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
 
 
 }
@@ -44,6 +47,7 @@ img {
     justify-content: center;
     align-items: center;*/
     padding-left: 15%;
+    
 }
 
 .Erica {
@@ -55,7 +59,7 @@ img {
     font-style: normal;
     font-size: 55px;
     line-height: 40px;
-    color: #8338ec;
+    color: #c62a88;
     padding-left: 15%;
 }
     
@@ -80,15 +84,16 @@ img {
     font-style: normal;
     font-size: 16px;
     color: #ffffff;
-    background-color:#8338ec ;
+    background-color:#c62a88;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
     border-radius: 80px;
     box-sizing: border-box;
     padding: 15px;
     margin: 0 auto 15px;
     text-decoration: none;
+
   
     
 }

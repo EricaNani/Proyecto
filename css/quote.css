@@ -1,0 +1,38 @@
+
+.quote {
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 40%;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-self: center;
+
+}
+
+.quote-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    margin: 20 20 0 0;
+}
+
+ .quote-section {
+    background-color: #91d18b;
+    display: flex;
+    justify-content: center;
+ }
+
+.blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    height: 60vh;
+}
+
+.quote-name{ 
+    font-family: "Montserrat" , sans-serif;
+    color: white;
+    text-align: center;
+
+}

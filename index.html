@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links css -->
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/presentacion.css">
-    <link rel="styleheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/misproyectos.css">
+    <link rel="stylesheet" href="./css/quote.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/global.css">
       <!-- links iconos -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-
+    
+    <!-- links fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5ae29d163a.js" crossorigin="anonymous"></script>
 
     <title>Proyecto Erica Nani</title>
 </head>
@@ -24,7 +27,7 @@
         <!-- <div> -->
             <nav class="nav-menu">
              <ul>
-                <li class="li-menu"> <a href="#">Hola</a></li>
+                <li> <a href="#">Hola</a></li>
                 <li> <a href="#">Conocimientos</a></li>
                 <li> <a href="#">Proyectos</a></li>
                 <li> <a href="#">Contacto</a></li>
@@ -35,49 +38,141 @@
 
 
         <!-- Presentación-->
-    <section class="section-presentacion"> 
-        <h2 class="hola">!Hola! soy</h2>
-        <h1 class="Erica"> Erica Nani</h1>
-        <p class="mi-descripcion">Desarrolladora, fan de la música</p>
-        <a href="#" class="buttom-habilidades"> Lo que hago</a>
-        <img src="./img1.jpg" class="imagen-presentacion">
-    </section>
-
+        <div>
+            <section class="section-presentacion"> 
+                <div><h2 class="hola">!Hola! soy</h2>
+                <h1 class="Erica"> Erica Nani</h1>
+                <p class="mi-descripcion">Desarrolladora, fan de la música</p>
+                <a href="#" class="buttom-habilidades"> Lo que hago</a>
+            </div>
+            <div>
+                <img src="./imagenes/img1.jpg" class="imagen-presentacion">
+            </div>
+            </section>
+        </div>
     <!-- Skills -->
     <section class="section-skills">
         <h2 class="section-title-s"> Mis conocimientos</h2>
         <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo quam possimus aliquid esse fugiat! Rem repudiandae odio asperiores</p>
-        <div class="Grilla skills-grilla">
-             <div class="Skills">
-                <i class="devicon-html5-plain skill-icon"></i>
-                <p class="Skill-titulo">HTML 5</p>
-             </div>
-             <div class="Skills">
-                <i class="devicon-css3-plain colored"></i>
-                <p class="Skill-titulo">CSS 3</p>
-             </div>
-             <div class="Skills">
-                <i class="devicon-sass-original colored"></i>
-                <p class="Skill titulo">SASS</p>
-             </div>
-             <div class="Skills">
-                <i class="devicon-javascript-plain colored"></i>
-                <p class="Skill-titulo">JavaScript</p>
-             </div>
-             <div class="Skills">
-                <i class="devicon-react-original colored"></i>
-                <p class="Skills-titulo">React</p>
-             </div>
-             <div class="Skills">
-                <i class="devicon-git-plain colored"></i>
-                <p class="Skill-titulo">Git</p>
-             </div>
+        <div class="skills-grilla">
+            <!-- corregir figcaption -->
+            <div class="skills-part1">
+                 <div class="Skills">
+                    <i class="devicon-html5-plain colored skill-icon"></i>
+                    <p class="Skill-titulo">HTML 5</p>
+                 </div>
+                 <div class="Skills">
+                    <i class="devicon-css3-plain colored skill-icon"></i>
+                    <p class="Skill-titulo">CSS 3</p>
+                 </div>
+                 <div class="Skills">
+                    <i class="devicon-sass-original colored skill-icon"></i>
+                    <p class="Skill-titulo">Sass</p>
+                 </div>
+            </div>
 
-
-
-        </div>
+             <div class="skills-part2">
+                 <div class="Skills">
+                    <i class="devicon-javascript-plain colored skill-icon"></i>
+                    <p class="Skill-titulo">JavaScript</p>
+                 </div>
+                 <div class="Skills">
+                    <i class="devicon-react-original colored skill-icon"></i>
+                    <p class="Skill-titulo">React</p>
+                 </div>
+                 <div class="Skills">
+                    <i class="devicon-git-plain colored skill-icon"></i>
+                    <p class="Skill-titulo">Git</p>
+                    </div>
+             </div>
+         </div>
 
     </section>
+
+             <!-- Quote -->
+             <section class="quote-section">
+                <i class="fas fa-quote-right quote-icon"></i>
+                <blockquote class="blockquote">
+                    <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aliquam iure at. Aspernatur eum fuga eos, sapiente provident nihil iure asperiores unde quidem. Porro suscipit consequuntur aperiam officiis magni explicabo.</p>
+                 
+                    <h2 class="quote-name">Erica</h2> 
+                </blockquote>
+             </section>
+
+             <!-- Mis proyectos -->
+    <section class="seccion-proyectos">
+        <h2 class="Mis-proyectos">Mis proyectos</h2>
+             <p class="sobre-misproye">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam hic consectetur facere at magni dolor similique sint maiores culpa delectus </p>
+            </section>
+                <div class="grilla proyectos">
+                    <a href="#"></a>
+                    <img src="./imagenes/img1.jpg" class="imagen-proyectos">
+                    <p class="titulo-proyecto">Portfolio</p>
+
+                    <a href="#"></a>
+                    <img src="./imagenes/img3.jpg" class="imagen-proyectos">
+                    <p class="titulo-proyecto">Generador de memes</p>
+
+                    <a href="#"></a>
+                    <img src="./imagenes/img9.jpg" class="imagen-proyectos">
+                    <p class="titulo-proyecto">Match 3</p>
+
+                    <a href="#"></a>
+                    <img src="./imagenes/img7.jpg" class="imagen-proyectos">
+                    <p class="titulo-proyecto">Controlador de gastos</p>
+
+                    <a href="#"></a>
+                    <img src="./imagenes/img6.jpg" class="imagen-proyectos">
+                    <p class="titulo-proyecto">Administrador de reuniones</p>
+
+                    <a href="#"></a>
+                    <img src="./imagenes/img4.jpg" class="imagen-proyectos">
+                    <p class="titulo-proyecto">Todo app</p>
+                    
+                    <a href="#"></a>
+                    <img src="./imagenes/img8.jpg" class="imagen-proyectos">
+                    <p class="titulo-proyecto">Buscador de peliculas</p>
+
+                </div>
+
+            </section>
+            <!-- Formulario -->
+            <section>
+            </section>
+
+            <!-- Contactame -->
+        <footer class="footer">
+            <nav class="navegation-footer">
+                <ul>
+                    <li class="li-footer"> <a href="#">HOLA</a></li>
+                    <li class="li-footer"> <a href="#">CONOCIMIENTOS</a></li>
+                    <li class="li-foote"> <a href="#">PROYECTOS</a></li>
+                    <li class="li-footer"> <a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+                <ul class="footer-socialmedia-links">
+                    <li class="footer-item-socialmedia"> 
+                        <a href="#">
+                            <i class="devicon-twitter-plain colored"></i>
+                        </a>
+                    </li>
+                    <li class="footer-item-socialmedia"> 
+                        <a href="#">
+                            <i class="devicon-github-plain-wordmark colored"></i>
+                        </a>
+                    </li>
+                    <li class="footer-item-socialmedia">
+                         <a href="#">
+                            <i class="devicon-linkedin-plain colored"></i>
+                         </a>
+                        </li>
+                    <li class="footer-item-socialmedia"> 
+                        <a href="#">
+                            <i class="fas fa-envelope-square"></i>
+                        </a>
+                    </li>
+                </ul>
+        </footer>
 
 
 </body>

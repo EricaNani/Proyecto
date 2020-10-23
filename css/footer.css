@@ -1,0 +1,16 @@
+.li-footer {
+    background-color: #91d18b;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px 60px;
+    background-color: #ccf6c8 ;
+}
+
+.navegation-footer {
+    background-color: #ccf6c8;
+}
