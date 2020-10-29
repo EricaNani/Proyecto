@@ -38,26 +38,27 @@
 
 
         <!-- Presentación-->
-        <div>
+        <div class="container">
             <section class="section-presentacion"> 
-                <div><h2 class="hola">!Hola! soy</h2>
-                <h1 class="Erica"> Erica Nani</h1>
-                <p class="mi-descripcion">Desarrolladora, fan de la música</p>
-                <a href="#" class="buttom-habilidades"> Lo que hago</a>
-            </div>
-            <div>
-                <img src="./imagenes/img1.jpg" class="imagen-presentacion">
-            </div>
+                <div class="box-letras-presentacion">
+                    <h2 class="hola">!Hola! soy</h2>
+                    <h1 class="Erica"> Erica Nani</h1>
+                    <p class="mi-descripcion">Desarrolladora, fan de la música</p>
+                    <a href="#" class="buttom-habilidades"> Lo que hago</a>
+                </div>
+
+                <div class="imagen-presentacion">
+                    <!-- <img src="./imagenes/img1.jpg"> -->
+               </div>
             </section>
         </div>
     <!-- Skills -->
     <section class="section-skills">
         <h2 class="section-title-s"> Mis conocimientos</h2>
         <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo quam possimus aliquid esse fugiat! Rem repudiandae odio asperiores</p>
-        <div class="skills-grilla">
-            <!-- corregir figcaption -->
-            <div class="skills-part1">
-                 <div class="Skills">
+    <div class="skills-grilla">
+        <div class="skills-part1">
+                <div class="Skills">
                     <i class="devicon-html5-plain colored skill-icon"></i>
                     <p class="Skill-titulo">HTML 5</p>
                  </div>
@@ -68,8 +69,9 @@
                  <div class="Skills">
                     <i class="devicon-sass-original colored skill-icon"></i>
                     <p class="Skill-titulo">Sass</p>
-                 </div>
-            </div>
+                </div>
+        </div>
+    </div>
 
              <div class="skills-part2">
                  <div class="Skills">
@@ -100,44 +102,79 @@
              </section>
 
              <!-- Mis proyectos -->
-    <section class="seccion-proyectos">
-        <h2 class="Mis-proyectos">Mis proyectos</h2>
-             <p class="sobre-misproye">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam hic consectetur facere at magni dolor similique sint maiores culpa delectus </p>
-            </section>
-                <div class="grilla proyectos">
+             <!-- corregir figcaption -->
+    <section class="section-proyects">
+             <h2 class="my-proyects">Mis proyectos</h2>
+             <p class="about-misproyects">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam hic consectetur facere at magni dolor similique sint maiores culpa delectus </p>
+             <div class="grilla-proyectos">
+                  <div class="first-images">
+                <figure>
                     <a href="#"></a>
                     <img src="./imagenes/img1.jpg" class="imagen-proyectos">
-                    <p class="titulo-proyecto">Portfolio</p>
+                    <figcaption class="titulo-proyecto">Portfolio </figcaption> 
+                </figure>
 
+                <figure>
                     <a href="#"></a>
                     <img src="./imagenes/img3.jpg" class="imagen-proyectos">
-                    <p class="titulo-proyecto">Generador de memes</p>
+                    <figcaption class="titulo-proyecto">Generador de memes</figcaption>
+                </figure>
 
+                <figure>
                     <a href="#"></a>
                     <img src="./imagenes/img9.jpg" class="imagen-proyectos">
-                    <p class="titulo-proyecto">Match 3</p>
-
+                    <figcaption class="titulo-proyecto">Match 3</figcaption>
+                </figure>
+                </div>  
+                <div class="second-images">
+                <figure>
                     <a href="#"></a>
                     <img src="./imagenes/img7.jpg" class="imagen-proyectos">
-                    <p class="titulo-proyecto">Controlador de gastos</p>
+                    <figcaption class="titulo-proyecto">Controlador de gastos </figcaption>
+                </figure>
 
+                <figure>
                     <a href="#"></a>
                     <img src="./imagenes/img6.jpg" class="imagen-proyectos">
-                    <p class="titulo-proyecto">Administrador de reuniones</p>
+                    <figcaption class="titulo-proyecto">Administrador de reuniones</figcaption>
+                </figure>
 
+                <figure>
                     <a href="#"></a>
                     <img src="./imagenes/img4.jpg" class="imagen-proyectos">
-                    <p class="titulo-proyecto">Todo app</p>
-                    
+                    <figcaption class="titulo-proyecto">Todo app</figcaption>
+                </figure>
+                </div>
+                <div class="thirt-images">
+
+                <figure>
                     <a href="#"></a>
                     <img src="./imagenes/img8.jpg" class="imagen-proyectos">
-                    <p class="titulo-proyecto">Buscador de peliculas</p>
+                    <figcaption class="titulo-proyecto">Buscador de peliculas</figcaption>
+                </figure>
+                </div>
 
                 </div>
 
             </section>
             <!-- Formulario -->
-            <section>
+            <section class="form">
+                <form action="index.html">
+                    <label for="nombreDeUsuario">Nombre</label>
+                    <input id="nombreDeUsuario" type="text" name="nombre" placeholder="Por ej: Erica" required>
+                    
+                    <label for="apellidoDeUsuario">Apellido</label>
+                    <input id="apellidoDeUsuario" type="text" name="apellido" placeholder="Por ej: Nani" required>
+
+                    <label for="usuarioDeMail">E-mail</label>
+                    <input id="usuarioDeMail" type="text" name="email" placeholder="Por ej: Erica@hotmail.com" required>
+
+                    <label for="mensajeDeUsuario">Mensaje</label>
+                    <textarea name="mensaje" id="mensajeDeUsuario" cols="30" rows="10" placeholder="Escriba aquí su mensaje" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Resetear informacion</button>
+                </form>
             </section>
 
             <!-- Contactame -->

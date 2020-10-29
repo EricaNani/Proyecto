@@ -1,6 +1,5 @@
 
 .quote {
-    font-family: "Montserrat" , sans-serif;
     font-weight: 40%;
     font-size: 18px;
     color: white;
@@ -31,7 +30,6 @@
 }
 
 .quote-name{ 
-    font-family: "Montserrat" , sans-serif;
     color: white;
     text-align: center;
 

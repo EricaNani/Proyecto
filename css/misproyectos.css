@@ -3,40 +3,55 @@ img {
     width: 50%;
 }
 
-
 .imagen-proyectos {
-    max-width: 400px;
-    padding-left: 800px;
-
+    width: 300px;
+   
 }
 
-@font-face {
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,700&display=swap') ;
-    font-family: "Montserrat";
+.section-proyects {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 110px 40px 130px;
+    text-align: center;
 }
 
 .titulo-proyecto {
-    font-size: 25px;
-    font-family: "Montserrat", sans-serif ;
-    font-weight: 800px;
+    font-size: 15px;
     font-style: normal;
-    text-align: center;
-   
-   
+    font-weight: bold;
+    margin: 0;
 }
 
-.grilla {
+.grilla-proyectos {
     width: 100%;
     max-width: 1100px;
-}
-
-.proyectos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
+.form{
+    margin: 100px 0;
+}
+    
+.first-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.thirt-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
