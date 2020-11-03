@@ -19,15 +19,17 @@ img {
     margin-bottom: 10px;
     padding: 110px 40px 130px;
     text-align: center;
-    background-color: #F6F7FB;
+   /* background-color: #F6F7FB;*/
+   background-color: #ffffff;
 }
 
 .container-image{
     /*background-color: teal;*/
     margin: 15px;
     height: 15%;
-    background-color: violet;
+    background-color: #ffffff;
     border-radius: 2%;
+    border: 1px solid #e0e0e0;
 }
 
 .container-image a img {
@@ -95,6 +97,6 @@ img {
     width: 300px;
    /* border-radius: 2%;*/
     margin-right: 10%;
-    border: 1px solid #e0e0e0;
+    
     margin-top: 5%;
 }
