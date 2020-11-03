@@ -1,5 +1,100 @@
-.form {
+.section-contact {
     height: 100vh;
     width: 100%;
     background-color: yellow;
+    display: flex;
+    flex-direction: row;
 }
+
+.head-contact-me {
+    background-color: palevioletred;
+    height: 17vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.list-contact-me{
+    background-color: purple;
+}
+
+.contact-me {
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 84vh;
+    text-align: center;
+}
+
+.title-contact-me {
+    background-color: violet;
+}
+
+.text-contact-me{
+    background-color: turquoise;
+}
+
+.contact-socialmedia-links {
+    background-color: sienna;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20%;
+}
+
+.contact-item-socialmedia a{
+    background-color: white ;
+    font-size: 25px;
+}
+
+.column-contact-me {
+    background-color: springgreen;
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+/*formulario*/
+
+.column-write-me{ 
+    background-color: orchid;
+    width: 100%;
+    margin-right: 5%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.write-me {
+    background-color: royalblue;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form div {
+    margin: 2%;
+}
+
+.title-write-me {
+    background-color: orange;
+}
+
+input {
+    width: 80%;
+}
+
+
+
+

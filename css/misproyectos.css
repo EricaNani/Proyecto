@@ -27,6 +27,12 @@ img {
     margin: 15px;
     height: 15%;
     background-color: violet;
+    border-radius: 2%;
+}
+
+.container-image a img {
+    border-radius: 2%;
+    
 }
 
 .my-proyects {
@@ -87,7 +93,8 @@ img {
 .imagen-proyects{
    /* background-color: violet;*/
     width: 300px;
-    border-radius: 2%;
+   /* border-radius: 2%;*/
     margin-right: 10%;
     border: 1px solid #e0e0e0;
+    margin-top: 5%;
 }

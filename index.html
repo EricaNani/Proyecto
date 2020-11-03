@@ -29,7 +29,7 @@
             <nav class="nav-menu">
              <ul>
                 <li> <a href="#">Hola</a></li>
-                <li> <a href="#">Conocimientos</a></li>
+                <li> <a href="#skills">Conocimientos</a></li>
                 <li> <a href="#">Proyectos</a></li>
                 <li> <a href="#">Contacto</a></li>
              </ul>
@@ -54,7 +54,7 @@
             </section>
         </div>
     <!-- Skills -->
-    <section class="section-skills">
+    <section id="skills" class="section-skills">
         <h2 class="section-title-s"> Mis conocimientos</h2>
         <p class="skills-discription"> En esta sección podrán ver los conocimientos adquiridos en mi curso en ADA</p>
     <div class="skills-grilla">
@@ -103,7 +103,6 @@
              </section>
 
              <!-- Mis proyectos -->
-             <!-- corregir figcaption -->
     <section class="section-proyects">
              <h2 class="my-proyects"> Mis proyectos</h2>
              <p class="about-misproyects">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam hic consectetur facere at magni dolor similique sint maiores culpa delectus </p>
@@ -159,24 +158,66 @@
 
             </section>
             <!-- Formulario -->
-            <section class="form">
+     <section class="section-contact">
+             <div class="column-contact-me">
+                <article class="contact-me">
+                <div class="head-contact-me">
+                    <h2 class="title-contact-me">Contactame</h2>
+                    <p class="text-contact-me">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit eligendi ipsam repellat nostrum rerum? Expedita blanditiis, laborum, a quia unde quasi temporibus sit doloremque nemo, maxime ut voluptatem laudantium perspiciatis.</p>
+                 </div>
+                <div class="list-contact-me">
+                    <ul class="contact-socialmedia-links">
+                        <li class="contact-item-socialmedia"> 
+                            <a href="#">
+                                <i class="devicon-twitter-plain colored"></i>
+                            </a>
+                        </li>
+                        <li class="contact-item-socialmedia"> 
+                            <a href="#">
+                                <i class="devicon-github-plain-wordmark colored"></i>
+                            </a>
+                        </li>
+                        <li class="contact-item-socialmedia">
+                             <a href="#">
+                                <i class="devicon-linkedin-plain colored"></i>
+                             </a>
+                            </li>
+                        <li class="contact-item-socialmedia"> 
+                            <a href="#">
+                                <i class="fas fa-envelope-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </article>
+            </div>
+
+        <div class="column-write-me"> 
+            <article class="write-me">
+                <h2 class="title-write-me">Escribime</h2>
                 <form action="index.html">
+                <div>
                     <label for="nombreDeUsuario">Nombre</label>
                     <input id="nombreDeUsuario" type="text" name="nombre" placeholder="Por ej: Erica" required>
-                    
+                </div>
+                <div>
                     <label for="apellidoDeUsuario">Apellido</label>
                     <input id="apellidoDeUsuario" type="text" name="apellido" placeholder="Por ej: Nani" required>
-
+                </div>
+                <div>
                     <label for="usuarioDeMail">E-mail</label>
                     <input id="usuarioDeMail" type="text" name="email" placeholder="Por ej: Erica@hotmail.com" required>
-
+                </div>
+                <div>
                     <label for="mensajeDeUsuario">Mensaje</label>
                     <textarea name="mensaje" id="mensajeDeUsuario" cols="30" rows="10" placeholder="Escriba aquí su mensaje" required></textarea>
-
+                </div>
                     <button type="submit">Enviar</button>
                     <button type="reset">Resetear informacion</button>
                 </form>
-            </section>
+            </article>
+        </div>
+    </section>
 
             <!-- Contactame -->
         <footer class="footer">
@@ -210,6 +251,8 @@
                         </a>
                     </li>
                 </ul>
+
+                <p class="p-footer">Hecho con ❤ por Erica</p>
         </footer>
 
 
