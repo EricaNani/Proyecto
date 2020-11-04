@@ -26,6 +26,11 @@ img {
     border: 1px solid #e0e0e0;
 }
 
+.container-image a {
+    color: black;
+
+}
+
 .container-image a img {
     border-radius: 2%;
     
@@ -95,6 +100,12 @@ img {
 }
 
 .container-image:hover {
+    cursor: pointer;
+    border: 1px solid #c62a88;
+    color:#c62a88 ;
+}
+
+.container-image a:hover {
     cursor: pointer;
     border: 1px solid #c62a88;
     color:#c62a88 ;
