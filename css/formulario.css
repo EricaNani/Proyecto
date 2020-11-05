@@ -95,6 +95,12 @@ input {
     width: 80%;
 }
 
+.nombre {
+    background-color: burlywood;
+}
 
+.label-apellido {
+    background-color: cyan;
+}
 
 
