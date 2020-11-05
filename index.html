@@ -209,22 +209,26 @@
                    <form action="index.html">
 
                    <div class="nombre-apellido">
-                       <label for="nombreDeUsuario">Nombre</label>
+                    <div class="label-nombreyapellido">
+                        <label for="nombreDeUsuario">Nombre</label>
+                    </div>
                        <input id="nombreDeUsuario" type="text" name="nombre" placeholder="Por ej: Erica" required>
-
+                    <div class="label-nombreyapellido">
                        <label for="apellidoDeUsuario">Apellido</label>
+                    </div>
                        <input id="apellidoDeUsuario" type="text" name="apellido" placeholder="Por ej: Nani" required>
                    </div>
 
-                   <div class="email">
+                    <div class="email">
                        <label for="usuarioDeMail">E-mail</label>
                        <input id="usuarioDeMail" type="text" name="email" placeholder="Por ej: Erica@hotmail.com" required>
-                   </div>
-
+                    </div>
+                   
                    <div class="mensaje">
                        <label for="mensajeDeUsuario">Mensaje</label>
                        <textarea name="mensaje" id="mensajeDeUsuario" cols="30" rows="10" placeholder="Escriba aquí su mensaje" required></textarea>
                    </div>
+                  
 
                        <button type="submit" class="boton-enviar">Enviar</button>
                        <button type="reset" class="resetear">Resetear informacion</button>

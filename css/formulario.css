@@ -45,7 +45,7 @@
 
 .contact-item-socialmedia a{
     background-color: white ;
-    font-size: 25px;
+    font-size: 12px;
 }
 
 .column-contact-me {
@@ -129,5 +129,11 @@ input, textarea{
 .nombre-apellido {
     display: flex;
 }
+
+.label-nombreyapellido{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
