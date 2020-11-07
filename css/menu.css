@@ -1,24 +1,18 @@
-/*.header-menu { width: 41%;
-    height: 9vh;
-    background-color: #FFFFFF;
-    width: fit-content;
-   
 
-}*/
 
 .header-menu {
     position: fixed;
     width: 100%;
 }
 
-ul { padding: 0;
+.ul-menu { padding: 0;
 }
 
-ul li { 
+.li-menu { 
     display: inline;
 }
 
-ul li a {
+.a-menu {
     font-size: 17px;
     font-weight: 30;
     text-decoration: none;
@@ -45,7 +39,8 @@ ul li a {
 
 }
 
-/*.li-menu {
-    background-color: ;
+a:hover {
+    cursor: pointer;
+    background-color: lightpink;
+    border-radius: 8%;
 }
-*/
