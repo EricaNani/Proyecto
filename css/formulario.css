@@ -84,6 +84,9 @@
     
 }
 
+.contact-link-1 {
+    color: black;
+}
 
 .contact-item-socialmedia-1:hover .icons-contactme-1 {
     background-color: lightpink;
