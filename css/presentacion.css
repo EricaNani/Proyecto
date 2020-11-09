@@ -81,3 +81,8 @@ p {
     justify-content: space-evenly;
     align-items: center;
 }
+
+.buttom-habilidades:hover {
+    cursor: pointer;
+    background-color: rgb(206, 143, 151);
+}
