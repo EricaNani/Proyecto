@@ -68,6 +68,12 @@
 .contact-item-socialmedia-1 {
     margin: 2.5% 0 3% 0;
     padding: 0;
+    width: 35%;
+}
+
+.contact-item-socialmedia-2 {
+    margin: 2.5% 0 3% 0;
+    padding: 0;
     width: 63%;
 }
 
@@ -82,6 +88,15 @@
 .contact-item-socialmedia-1:hover .contact-link-1 {
     color: var(--pink);
 }
+
+.contact-item-socialmedia-2:hover .contact-link-1 {
+    color: var(--pink);
+}
+
+.contact-item-socialmedia-2:hover .icons-contactme-1 {
+    background-color:var(--pinkSecundario);
+}
+
 .column-write-me{ 
     width: 50%;
     margin-right: 2%;
