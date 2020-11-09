@@ -39,7 +39,7 @@
 
 }
 
-a:hover {
+.a-menu:hover {
     cursor: pointer;
     background-color: lightpink;
     border-radius: 8%;
