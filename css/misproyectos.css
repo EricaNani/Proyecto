@@ -12,28 +12,24 @@ img {
     margin-bottom: 10px;
     padding: 110px 40px 130px;
     text-align: center;
-   /* background-color: #F6F7FB;*/
-   background-color: #ffffff;
+   background-color: var(--fondoPrimario);
    
 }
 
 .container-image{
-    /*background-color: teal;*/
     margin: 15px;
     height: 15%;
-    background-color: #ffffff;
+    background-color: var(--fondoPrimario);
     border-radius: 2%;
     border: 1px solid #e0e0e0;
 }
 
 .container-image a {
-    color: black;
-
+    color: var(--black);
 }
 
 .container-image a img {
     border-radius: 2%;
-    
 }
 
 .my-proyects {
@@ -53,34 +49,27 @@ img {
     font-weight: bold;
     margin-top: 5%;
     margin-bottom: 5%;
-/* background-color: mediumvioletred;*/
 }
 
 .grilla-proyectos {
     width: 100%;
-    /*max-width: 1100px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   /* background-color: salmon;*/
-    
 }
 
 .first-images {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   /* background-color: seagreen;*/
     margin-bottom: 5%;
-    
-    
 }
+
 .second-images {
     display: flex;
     justify-content: center;
     align-items: center;
-   /* background-color: skyblue;*/
     margin-bottom: 5%;
 }
 
@@ -88,27 +77,25 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-   /* background-color: yellow;*/
 }
 
 .imagen-proyects{
-  /* background-color: violet;*/
     width: 300px;
-   /* border-radius: 2%;*/
     margin-right: 10%;
     margin-top: 5%;
 }
 
 .container-image:hover {
     cursor: pointer;
-    border: 1px solid #c62a88;
-    color:#c62a88 ;
+    border: 1px solid var(--pink);
+    color:var(--pink) ;
+    transition: 1s all linear
 }
 
 .container-image a:hover {
     cursor: pointer;
-    border: 1px solid #c62a88;
-    color:#c62a88 ;
+    border: 1px solid var(--pink);
+    color: var(--pink);
 }
 
 a {

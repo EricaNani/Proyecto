@@ -13,3 +13,13 @@
 a {
     text-decoration: none;
 }
+
+:root {
+    --fondoPrimario:  #ffffff; 
+    --fondoSecundario: #F6F7FB;
+    --pink: #c62a88;
+    --green: #ccf6c8;
+    --black:rgb(0, 0, 0);
+    --pinkSecundario: #ffb6c1;
+    --greenSecundario: #91d18b ;
+}
