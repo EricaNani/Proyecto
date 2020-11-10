@@ -42,5 +42,9 @@ a {
     height: auto;
     margin: 0 2%;
     text-align: center;
-}
+} 
 
+.iconos-footer:hover {
+    cursor: pointer;
+    background-color: var(--pinkSecundario);
+}
