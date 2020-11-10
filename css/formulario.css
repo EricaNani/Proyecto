@@ -33,7 +33,6 @@
     display: flex;
     text-align: center;
     justify-content: center;
-
 }
 
 .text-contactme {
@@ -43,7 +42,6 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    
 }
 
 .list-contact-me {
@@ -143,7 +141,7 @@ input, textarea{
 }
 
 .boton-enviar {
-     padding: 10px 25px;
+    padding: 10px 25px;
     border-radius: 80px; 
     font-weight: 500;
     display: flex;
@@ -210,3 +208,10 @@ input, textarea{
    textarea {
        margin-top: 2%;
    }
+
+   @media(max-width: 1215px) {
+       .contact-me {
+           flex-direction: column;
+       }
+   }
+   

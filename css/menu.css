@@ -3,7 +3,8 @@
     width: 100%;
 }
 
-.ul-menu { padding: 0;
+.ul-menu { 
+    padding: 0;
 }
 
 .li-menu { 
@@ -36,6 +37,6 @@
 
 .a-menu:hover {
     cursor: pointer;
-    background-color: var(--pinkSecundario);
+    color: var(--pinkSecundario);
     border-radius: 8%;
 }
