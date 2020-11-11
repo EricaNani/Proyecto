@@ -23,7 +23,27 @@
 ***
 <br>
 
-Este proyecto no necesita la intalación de ninguna dependencia, por ahora!
+### Este proyecto no necesita la intalación de ninguna dependencia, por ahora!
+
+***
+<br>
+
+### Una vez finalizada la descarga del proyecto, deberías verlo así..
+<br>
+
+![imagen](./imagenes/imagen.print.png)
+
+***
+<br>
+
+### Este portafolio lo logré gracias a la gran enseñanza y paciencia de John Parra y Leydy Moreno.
+
+<br>
+
+### De Erica con mucho 💜 para ustedes!
+
+
+
 
 
 
