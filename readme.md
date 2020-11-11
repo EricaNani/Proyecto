@@ -5,7 +5,7 @@
 
 ***
 
-### Si quieres ver como quedo el módelo final, puedes darle click a este [enlace](ericanani.github.io/proyecto/.) o puedes hacerlo desde [acá](https://zen-liskov-dd5ef0.netlify.app).
+### Si quieres ver como quedo el módelo final, puedes darle click a este [enlace](https://ericanani.github.io/Proyecto/) o puedes hacerlo desde [acá](https://zen-liskov-dd5ef0.netlify.app).
 <br>
 
 
