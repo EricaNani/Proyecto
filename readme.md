@@ -36,7 +36,7 @@
 ***
 <br>
 
-### Este portafolio lo logré gracias a la gran enseñanza y paciencia de John Parra y Leydy Moreno.
+### Este portafolio lo logré gracias a la gran enseñanza y paciencia de [John Parra](https://github.com/Jonhks) y [Leydy Moreno](https://github.com/leydyk93/) 
 
 <br>
 
