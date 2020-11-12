@@ -210,3 +210,16 @@ input, textarea{
    textarea {
        margin-top: 2%;
    }
+
+   @media(max-width: 1215px) {
+    .container-contactme {
+        flex-direction: column;
+        background-color: cyan;
+        height: fit-content;
+    }
+
+    .contact-me {
+        height: auto;
+        background-color: darkorchid;
+    }
+}
