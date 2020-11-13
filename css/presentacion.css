@@ -89,7 +89,6 @@ p {
 
 @media (min-width:320px) and (max-width:900px) {
     .box-letras-presentacion {
-        background-color: mediumpurple;
         height: auto;
         justify-content: center;
         text-align: center;
@@ -102,13 +101,5 @@ p {
 
     .Erica {
         font-size: 30px;
-    }
-
-    .section-presentacion {
-        background-color: paleturquoise;
-    }
-
-    .container {
-        background-color: peru;
     }
 }

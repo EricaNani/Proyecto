@@ -70,16 +70,13 @@
 
 @media (min-width:320px) and (max-width:900px) {
     .skills-part1{
-        background-color: darkmagenta;
         flex-direction: column;
     }
 
     .section-skills {
        height: auto;
-        background-color: chartreuse;
     }
     .skills-part2{
-        background-color: blue;
         flex-direction: column;
     }
 

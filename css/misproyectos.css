@@ -104,20 +104,17 @@ a {
 
 @media (min-width:320px) and (max-width:900px) {
         .section-proyects {
-            background-color: tomato;
             height: auto;
             width: auto;
         }
 
         .first-images {
-            background-color: yellow;
             flex-direction: column;
             justify-content: center;
             padding: 0;
         }
 
         .second-images {
-            background-color: palegreen;
             flex-direction: column;
             justify-content: center;
         }

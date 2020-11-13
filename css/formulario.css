@@ -216,15 +216,12 @@ input, textarea{
             width: auto;
             height: auto;
             flex-direction: column;
-            background-color: deeppink;
             padding: 0;
-            overflow: hidden;
         }
 
         .container-contactme {
             width: auto;
             height: auto;
-            background-color: deepskyblue;
             flex-direction: column;
             padding: 0;
         }
@@ -238,7 +235,6 @@ input, textarea{
         .column-write-me {
             width: 100%;
             flex-direction: column;
-            background-color: sienna;
             height: auto;
         }
 
@@ -248,13 +244,11 @@ input, textarea{
         }
 
         .contact-item-socialmedia-1, .contact-item-socialmedia-2 {
-            background-color: gold;
             width: 100%;
             padding: 3%;
         }
 
         .list-contact-me {
-            background-color: violet;
             width: 100vw;
             height: auto;
         }
