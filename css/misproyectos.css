@@ -101,3 +101,31 @@ img {
 a {
     transition: 1s all linear;
 }
+
+@media (min-width:320px) and (max-width:900px) {
+        .section-proyects {
+            background-color: tomato;
+            height: auto;
+        }
+
+        .first-images {
+            background-color: yellow;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .second-images {
+            background-color: palegreen;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .my-proyects {
+            font-size: 30px;
+        }
+
+        .about-misproyects {
+            font-size: 15px;
+        }
+
+}

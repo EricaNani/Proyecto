@@ -48,3 +48,14 @@ a {
     cursor: pointer;
     background-color: var(--pinkSecundario);
 }
+
+@media (min-width:320px) and (max-width:900px) {
+    .ul-menu-footer {
+        display: none;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+}

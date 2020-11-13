@@ -37,3 +37,24 @@
     margin-bottom: 15%;
     margin-top: 10%;
 }
+
+@media (min-width:320px) and (max-width:900px) {
+    .quote-section {
+        height: auto;
+    }
+
+    .blockquote {
+        text-align: center;
+        font-size: 18px;
+        background-color: lime;
+    }
+
+    .quote {
+        font-size: 15px;
+    }
+
+    .quote-icon {
+        font-size: 75px;
+
+    }
+}

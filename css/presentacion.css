@@ -86,3 +86,21 @@ p {
     cursor: pointer;
     background-color: rgb(206, 143, 151);
 }
+
+@media (min-width:320px) and (max-width:900px) {
+    .box-letras-presentacion {
+        background-color: mediumpurple;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hola {
+        font-size: 25px;
+    }
+
+    .Erica {
+        font-size: 30px;
+    }
+}

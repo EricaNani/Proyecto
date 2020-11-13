@@ -68,23 +68,30 @@
     color:var(--pink) ;
 }
 
-@media(min-width:360px) and (max-width: 1020px) {
+@media (min-width:320px) and (max-width:900px) {
     .skills-part1{
         background-color: darkmagenta;
         flex-direction: column;
-        
     }
 
     .section-skills {
        height: auto;
         background-color: chartreuse;
     }
-}
-
-@media(max-width: 1020px) {
     .skills-part2{
         background-color: blue;
         flex-direction: column;
-        
+    }
+
+    .section-title-s {
+        display: flex;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .skills-discription {
+        display: flex;
+        text-align: center;
+        font-size: 15px;
     }
 }
