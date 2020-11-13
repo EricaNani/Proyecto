@@ -134,4 +134,8 @@ a {
             width: 250px;
         }
 
+        .container-image {
+            margin: 0;
+        }
+
 }
