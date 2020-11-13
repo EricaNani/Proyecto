@@ -224,6 +224,7 @@ input, textarea{
             height: auto;
             flex-direction: column;
             padding: 0;
+            border-radius: 0%;
         }
         
         .contact-me-2 {
@@ -256,6 +257,10 @@ input, textarea{
         .label-nombreyapellido {
             text-align: center;
             width: 100%;
+        }
+
+        .title-contactme {
+            margin-top: 5%;
         }
 
     }
