@@ -211,24 +211,14 @@ input, textarea{
        margin-top: 2%;
    }
 
-  /* @media(max-width: 1215px) {
-    .container-contactme {
-        flex-direction: column;
-        background-color: cyan;
-        height: fit-content;
-    }
-
-    .contact-me {
-        height: auto;
-        background-color: darkorchid;
-    }*/
-
     @media (min-width:320px) and (max-width:900px) {
         .contact-me {
             width: auto;
             height: auto;
             flex-direction: column;
             background-color: deeppink;
+            padding: 0;
+            overflow: hidden;
         }
 
         .container-contactme {
