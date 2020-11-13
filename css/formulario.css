@@ -236,6 +236,7 @@ input, textarea{
             height: auto;
             background-color: deepskyblue;
             flex-direction: column;
+            padding: 0;
         }
         
         .contact-me-2 {

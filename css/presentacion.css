@@ -103,4 +103,12 @@ p {
     .Erica {
         font-size: 30px;
     }
+
+    .section-presentacion {
+        background-color: paleturquoise;
+    }
+
+    .container {
+        background-color: peru;
+    }
 }
