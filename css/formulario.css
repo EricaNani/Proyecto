@@ -211,7 +211,7 @@ input, textarea{
        margin-top: 2%;
    }
 
-   @media(max-width: 1215px) {
+  /* @media(max-width: 1215px) {
     .container-contactme {
         flex-direction: column;
         background-color: cyan;
@@ -221,5 +221,56 @@ input, textarea{
     .contact-me {
         height: auto;
         background-color: darkorchid;
+    }*/
+
+    @media (min-width:320px) and (max-width:900px) {
+        .contact-me {
+            width: auto;
+            height: auto;
+            flex-direction: column;
+            background-color: deeppink;
+        }
+
+        .container-contactme {
+            width: auto;
+            height: auto;
+            background-color: deepskyblue;
+            flex-direction: column;
+        }
+        
+        .contact-me-2 {
+            height: auto;
+            width: 100%;
+            margin-right: 0;
+        }
+
+        .column-write-me {
+            width: 100%;
+            flex-direction: column;
+            background-color: sienna;
+            height: auto;
+        }
+
+        .nombre-apellido {
+            width: 96%;
+            flex-wrap: wrap;
+        }
+
+        .contact-item-socialmedia-1, .contact-item-socialmedia-2 {
+            background-color: gold;
+            width: 100%;
+            padding: 3%;
+        }
+
+        .list-contact-me {
+            background-color: violet;
+            width: 100vw;
+            height: auto;
+        }
+
+        .label-nombreyapellido {
+            text-align: center;
+            width: 100%;
+        }
+
     }
-}
