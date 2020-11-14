@@ -102,4 +102,9 @@ p {
     .Erica {
         font-size: 30px;
     }
+
+    .buttom-habilidades {
+        padding: 10px;
+        font-size: 14px;
+    }
 }
