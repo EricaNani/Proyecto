@@ -224,7 +224,7 @@ input, textarea{
             height: auto;
             flex-direction: column;
             padding: 0;
-            border-radius: 0%;
+            border: none;
         }
         
         .contact-me-2 {
