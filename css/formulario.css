@@ -237,6 +237,8 @@ input, textarea{
             width: 100%;
             flex-direction: column;
             height: auto;
+            margin-top: 3%;
+            margin: 0;
         }
 
         .nombre-apellido {
@@ -260,7 +262,17 @@ input, textarea{
         }
 
         .title-contactme {
-            margin-top: 5%;
+            margin-top: 6%;
+            font-size: 30px;
+        }
+
+        .text-contactme {
+            font-size: 15px;
+        }
+
+        .title-write-me {
+            font-size: 30px;
+            margin-top: 3%;
         }
 
     }
