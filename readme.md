@@ -1,6 +1,6 @@
 # Portafolio de Ada
 
-### En este proyecto van a ver volcados todos los conocimientos que fui desarrollando durante el primero módulo de mi curso de FrontEnd en ADA. Use paletas de colores suaves para dar armonía y a la vez son atractivos a la vista. ¡Espero les guste!
+### En este proyecto van a ver volcados todos los conocimientos que fui desarrollando durante el primero módulo de mi curso de FrontEnd en ADA. ¡Espero les guste!
 <br>
 
 ***
